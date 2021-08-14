@@ -50,7 +50,7 @@ function demo(x, y, z){
     }
     return x + y + z;
 }
-var res1=demo(10.20);
+var res1=demo(10,20);
 console.log(res1)
 
 const demo1=(a,b=10,c=20) =>{
