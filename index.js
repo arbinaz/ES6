@@ -22,7 +22,7 @@ es6Test()
 function add(a,b){
     return a + b;
 }
-add(3.4)
+add(3,4)
 
 // Function Expression
 var add1=function(a,b){
@@ -66,7 +66,7 @@ var message= greeting +  Name + ' Have a great year ahead'
 console.log(message);
 
 // Template Literals
-const mes=`$(greetings) $(Name)  Have a great year ahead`
+const mes=`${greeting} ${Name} Have a great year ahead`
 console.log(mes);
 
 // Arrays
